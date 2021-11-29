@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+    "SemVersion": "1.0.0",
+    "RemoteVersionRange": "^1.0.0",
+	"FriendlyName": "Rootin' Tootin' Parachutin'",
+	"Description": "Greatly imporoves the sound of parachutes!",
+	"Category": "Modding",
+	"CreatedBy": "adamsogm",
+	"CreatedByURL": "https://github.com/adamsong/RootTootParachute",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+    "Modules": [
+        {
+            "Name": "RootTootParachute",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+        }
+    ],
+    "Plugins": [
+        {
+            "Name": "SML",
+            "SemVersion": "^3.2.0",
+            "bIsOptional": false,
+            "bIsBasePlugin": false,
+            "Enabled": true
+        }
+    ]
+}
